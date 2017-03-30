@@ -1,13 +1,11 @@
 # This file is a part of DAQCorE.jl, licensed under the MIT License (MIT).
 
-__precompile__(true)
+module SCPI
 
-module DAQCorE
+using DAQCorE
 
 include.([
-    "lockable.jl",
-    "device_property.jl",
-    "SCPI/SCPI.jl",
+    "scpi_devprops.jl",
 ])
 
 end # module
