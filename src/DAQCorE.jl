@@ -1,5 +1,10 @@
+# This file is a part of DAQCorE.jl, licensed under the MIT License (MIT).
+
+__precompile__(true)
+
 module DAQCorE
 
-# package code goes here
+include.([
+])
 
 end # module
