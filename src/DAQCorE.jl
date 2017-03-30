@@ -6,6 +6,7 @@ module DAQCorE
 
 include.([
     "lockable.jl",
+    "device_property.jl",
 ])
 
 end # module
