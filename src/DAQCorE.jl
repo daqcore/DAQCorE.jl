@@ -5,6 +5,7 @@ __precompile__(true)
 module DAQCorE
 
 include.([
+    "lockable.jl",
 ])
 
 end # module
