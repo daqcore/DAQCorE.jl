@@ -6,6 +6,7 @@ module DAQCorE
 
 include.([
     "lockable.jl",
+    "device.jl",
     "device_property.jl",
     "SCPI/SCPI.jl",
 ])
