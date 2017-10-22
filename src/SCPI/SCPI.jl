@@ -4,8 +4,6 @@ module SCPI
 
 using DAQCorE
 
-include.([
-    "scpi_devprops.jl",
-])
+include("scpi_devprops.jl")
 
 end # module

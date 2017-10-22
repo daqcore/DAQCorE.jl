@@ -4,11 +4,9 @@ __precompile__(true)
 
 module DAQCorE
 
-include.([
-    "lockable.jl",
-    "device.jl",
-    "device_property.jl",
-    "SCPI/SCPI.jl",
-])
+include("lockable.jl")
+include("device.jl")
+include("device_property.jl")
+include("SCPI/SCPI.jl")
 
 end # module
